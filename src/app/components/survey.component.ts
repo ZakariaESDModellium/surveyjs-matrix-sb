@@ -1,8 +1,8 @@
-import { Component, Input, EventEmitter, Output, OnInit } from "@angular/core";
-import * as Survey from "survey-angular";
-import * as widgets from "surveyjs-widgets";
+import * as Survey from 'survey-angular';
+import * as widgets from 'surveyjs-widgets';
+import { init as initCustomWidget } from './customwidget';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
-import { init as initCustomWidget } from "./customwidget";
 
 widgets.icheck(Survey);
 widgets.select2(Survey);
@@ -23,7 +23,7 @@ initCustomWidget(Survey);
 Survey.JsonObject.metaData.addProperty("questionbase", "popupdescription:text");
 Survey.JsonObject.metaData.addProperty("page", "popupdescription:text");
 
-Survey.StylesManager.applyTheme("default");
+Survey.StylesManager.applyTheme("modern");
 
 @Component({
   // tslint:disable-next-line:component-selector

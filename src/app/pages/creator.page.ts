@@ -1,6 +1,6 @@
-import { Component } from "@angular/core";
+import json from '../../assets/survey.json';
+import { Component } from '@angular/core';
 
-import json from "../../assets/survey.json";
 
 @Component({
   selector: "creator-page",

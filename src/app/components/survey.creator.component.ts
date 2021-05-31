@@ -1,8 +1,8 @@
-import { Component, Input, Output, EventEmitter } from "@angular/core";
-import * as SurveyKo from "survey-knockout";
-import * as SurveyCreator from "survey-creator";
-import * as widgets from "surveyjs-widgets";
-import { init as initCustomWidget } from "./customwidget";
+import * as SurveyCreator from 'survey-creator';
+import * as SurveyKo from 'survey-knockout';
+import * as widgets from 'surveyjs-widgets';
+import { init as initCustomWidget } from './customwidget';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 widgets.icheck(SurveyKo);
 widgets.select2(SurveyKo);
@@ -19,7 +19,7 @@ widgets.bootstrapslider(SurveyKo);
 //widgets.emotionsratings(SurveyKo);
 initCustomWidget(SurveyKo);
 
-SurveyCreator.StylesManager.applyTheme("default");
+SurveyCreator.StylesManager.applyTheme("modern");
 
 // var CkEditor_ModalEditor = {
 //   afterRender: function(modalEditor, htmlElement) {
@@ -64,7 +64,17 @@ export class SurveyCreatorComponent {
     );
     SurveyKo.JsonObject.metaData.addProperty("page", "popupdescription:text");
 
-    let options = { showEmbededSurveyTab: true, generateValidJSON: true };
+    let options = {
+       showEmbededSurveyTab: true, 
+      showPropertyGrid: false,
+      showTranslationTab: true,
+      showElementEditorAsPropertyGrid: false,
+      showDefaultLanguageInTestSurveyTab: false,
+      showInvisibleElementsInTestSurveyTab: false,
+      showSimulatorInTestSurveyTab: false,
+      isAutoSave: true,
+      scrollToNewElement: false
+     };
     this.surveyCreator = new SurveyCreator.SurveyCreator(
       "surveyCreatorContainer",
       options
