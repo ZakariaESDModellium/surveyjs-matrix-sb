@@ -1,29 +1,31 @@
 {
-    "title": "Matrix column name issue",
+    "title": "question4",
     "pages": [
      {
       "name": "page1",
       "elements": [
        {
-        "type": "matrix",
-        "name": "question1",
-        "columns": [
-         "Column 1",
-         "Column 2",
-         "Column 3",
-         "Column 4",
-         "Column 5"
-        ],
-        "rows": [
-         "Row 1",
-         "Row 2",
-         "Row 3",
-         "Row 4",
-         "Row 5"
-        ]
+        "type": "file",
+        "name": "File 1",
+        "maxSize": 0
+       },
+       {
+        "type": "file",
+        "name": "File 2",
+        "maxSize": 0
+       },
+       {
+        "type": "file",
+        "name": "File 2",
+        "maxSize": 0
        }
       ]
+     },
+     {
+      "name": "page2"
+     },
+     {
+      "name": "page3"
      }
-    ],
-    "showProgressBar": "top"
+    ]
    }

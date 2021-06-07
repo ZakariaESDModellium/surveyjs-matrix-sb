@@ -23,7 +23,7 @@
             "styles": [
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/survey-angular/survey.css",
+              "node_modules/survey-angular/modern.css",
               "node_modules/survey-analytics/survey.analytics.css",
               "node_modules/survey-analytics/survey.analytics.tabulator.css",
               "node_modules/survey-analytics/survey.analytics.datatables.css",
@@ -127,7 +127,7 @@
             "styles": [
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/survey-angular/survey.css",
+              "node_modules/survey-angular/modern.css",
               "node_modules/survey-creator/survey-creator.css",
               "node_modules/jquery-ui/themes/base/theme.css",
               "node_modules/jquery-ui/themes/base/datepicker.css",

@@ -40,6 +40,7 @@ export class SurveyComponent implements OnInit {
 
   ngOnInit() {
     const surveyModel = new Survey.Model(this.json);
+    surveyModel.showPreviewBeforeComplete = "showAllQuestions";
     surveyModel.onAfterRenderQuestion.add((survey, options) => {
       if (!options.question.popupdescription) {
         return;
