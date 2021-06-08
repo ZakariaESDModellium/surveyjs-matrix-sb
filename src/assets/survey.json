@@ -2,30 +2,48 @@
     "title": "question4",
     "pages": [
      {
-      "name": "page1",
+      "name": "page2",
       "elements": [
        {
-        "type": "file",
-        "name": "File 1",
-        "maxSize": 0
+        "type": "matrix",
+        "name": "question1",
+        "columns": [
+         "Column 1",
+         "Column 2",
+         "Column 3"
+        ],
+        "rows": [
+         "Row 1",
+         "Row 2"
+        ]
        },
        {
-        "type": "file",
-        "name": "File 2",
-        "maxSize": 0
+        "type": "matrix",
+        "name": "question2",
+        "columns": [
+         "Column 1",
+         "Column 2",
+         "Column 3"
+        ],
+        "rows": [
+         "Row 1",
+         "Row 2"
+        ]
        },
        {
-        "type": "file",
-        "name": "File 2",
-        "maxSize": 0
+        "type": "matrix",
+        "name": "question3",
+        "columns": [
+         "Column 1",
+         "Column 2",
+         "Column 3"
+        ],
+        "rows": [
+         "Row 1",
+         "Row 2"
+        ]
        }
       ]
-     },
-     {
-      "name": "page2"
-     },
-     {
-      "name": "page3"
      }
     ]
    }
