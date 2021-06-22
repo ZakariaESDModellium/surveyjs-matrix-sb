@@ -1,49 +1,40 @@
 {
-    "title": "question4",
     "pages": [
      {
-      "name": "page2",
+      "name": "page1",
       "elements": [
        {
-        "type": "matrix",
+        "type": "matrixdropdown",
         "name": "question1",
+        "vplusPopupLibelle": null,
         "columns": [
-         "Column 1",
-         "Column 2",
-         "Column 3"
+         {
+          "name": "Colonne 1",
+          "vplusPopupLibelle": null
+         },
+         {
+          "name": "Colonne 2",
+          "vplusPopupLibelle": null
+         },
+         {
+          "name": "Colonne 3",
+          "vplusPopupLibelle": null
+         }
+        ],
+        "choices": [
+         1,
+         2,
+         3,
+         4,
+         5
         ],
         "rows": [
-         "Row 1",
-         "Row 2"
-        ]
-       },
-       {
-        "type": "matrix",
-        "name": "question2",
-        "columns": [
-         "Column 1",
-         "Column 2",
-         "Column 3"
-        ],
-        "rows": [
-         "Row 1",
-         "Row 2"
-        ]
-       },
-       {
-        "type": "matrix",
-        "name": "question3",
-        "columns": [
-         "Column 1",
-         "Column 2",
-         "Column 3"
-        ],
-        "rows": [
-         "Row 1",
-         "Row 2"
+         "Ligne 1",
+         "Ligne 2"
         ]
        }
-      ]
+      ],
+      "vplusPopupLibelle": null
      }
     ]
    }
